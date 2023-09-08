@@ -10,7 +10,7 @@ const handlerServer = (req, res) => {
     // Codigo de respuesta y tipo de contenido
     res.writeHead(200, { 'Content-type': 'text/html' });
     // Lo que se vera en el servidor
-    res.write('<h1>Hola Mundo</h1>');
+    res.write('<h1>Hola Mundo con NodeJS</h1>');
     // Finalizar la respuesta
     res.end();
 }
